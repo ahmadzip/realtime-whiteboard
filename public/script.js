@@ -1,7 +1,7 @@
 "use strict";
 
 (function () {
-  let socket = io.connect("https://41a4-182-253-126-4.ngrok-free.app");
+  let socket = io.connect();
   let canvas = document.querySelector("canvas"),
     toolBtns = document.querySelectorAll(".tool"),
     fillColor = document.querySelector("#fill-color"),
